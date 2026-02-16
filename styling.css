@@ -1,1 +1,81 @@
+body{
+    background-color: rgb(229, 247, 245);
+    font-family:Cambria
+}
+img {
+  width: 300px;
+  height: 400px;
+}
 
+h1{
+    color: rgb(59, 88, 167);
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+section {
+    color:rgb(68, 19, 106);
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    color:rgb(105, 38, 124)
+}
+
+table, th, td{
+         border:0.5px solid rgb(73, 71, 138)
+}
+li{
+    color: rgb(73, 71, 138);
+}
+.names { /* the "names" selector takes precedence over "p" selector because class selectors have precedence over element selectors */
+    color:darkmagenta;
+    font-weight: bold;
+    font-size: 25px;
+}
+.dates{  /* the "dates" selector takes precedence over "p" selector because class selectors have precedence over element selectors */
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(147, 96, 104)
+}
+#contact { /* the "contact" selector takes precedence over "p" selector because id selectors have precedence over element selectors */
+    color:rgb(1, 64, 41);
+    font-size: 20px;
+}
+.content{
+    max-width: 400px;
+    background-color: aliceblue;
+    padding: 15px;
+    position: relative;
+    border: 10px solid rgb(227, 185, 240);
+    left: 500px;
+}
+.title{
+    max-width: 400px;
+    background-color: aliceblue;
+    padding: 15px;
+    position: relative;
+    border: 10px solid rgb(51, 75, 141);
+    left: 500px;
+}
+.pic {
+     max-width: 400px;
+    padding: 15px;
+    position: relative;
+    left: 560px;
+}
+
+.name{
+    max-width: 550px;
+    max-height: 150x;
+    padding: 15px;
+    position: relative;
+    left: 460px;
+}
+.foot{
+       max-width: 400px;
+    padding: 15px;
+    position: relative;
+    left: 550px;
+}
