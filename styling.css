@@ -92,7 +92,7 @@ li{
 @media(max-width: 768px){
     img{
      max-width: 25rem;
-    max-height: 8rem;
+    max-height: 25rem;
     padding: 0.8rem;
     }
     h1{
@@ -111,9 +111,6 @@ li{
          display: grid;
         grid-gap: 1rem;
         grid-template-columns: 1fr;
-    }
-    img {
-        
     }
 }
 .col {
@@ -143,9 +140,9 @@ width: 12rem;
 .nav-links {
     display: flex;
     justify-content: flex-end;
-    align-items: stretch;
+    align-items: center;
     gap: 1.2rem; 
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 1.3rem;
 }
 .grid2 {
