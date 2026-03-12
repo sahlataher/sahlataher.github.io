@@ -19,4 +19,4 @@ responsive design?
 Relative units are scalable and can be adjusted easily to different devices and screen sizes.
 
 4. AI Attribution: List the prompt you used if you consulted GenAI. Identify one specific piece of CSS code the AI provided that you had to modify to make it work for your layout.
-This is related to HTML but I used ChaGPT to help me set up my links in the top navigation bar which weren't clickable to their destination before. I learned that I needed to by set up id classes for the elements in the nav bar and I manually set up those id classes and their names.
+This is related to HTML but I used ChaGPT to help me set up my links in the top navigation bar which weren't clickable to their destination before. I learned that I needed to set up id classes for the elements in the nav bar and I manually set up those id classes and their names.
